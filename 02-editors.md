@@ -60,14 +60,13 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> Vim- It's already on my mac.
 --
 
 ###Q2. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I chose Sublime because it' what I'm most familiar with. You can create tabs in Sublime and rotate throught them with cmd-alt-arrow. You can use a multi-edit function to change names used throughout your code. I've set up my editor to have a dark background with high contrasting text so it's easier on my eyes. 
 
  
