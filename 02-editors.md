@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> Vim- It's already on my mac.
+>> Vim, It's already on my mac.
 --
 
 ###Q2. Graphical Editor
