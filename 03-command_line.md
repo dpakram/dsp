@@ -84,7 +84,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > - 'ls -r' Displays files in reverse order.
+- 'ls -t' displays newest file first
+- 'ls -1' displays each entry on a line
+- 'ls -m' Displays the names as a comma-separated list.
+- 'ls -u' Displays files by the file access time.
 
 ---
 
@@ -92,7 +96,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > In case you haven’t, xargs is a command used to execute commands based on arguments from standard input. It can be combined with with other commands. For example xargs can be used in combination with find in order to do something with the list of files returned by find. Recursively find all Python files and count the number of lines
+'find . -name '*.py' | xargs wc -l'
 
  
 
