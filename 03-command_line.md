@@ -69,13 +69,13 @@ hold information about the environment
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  lists all files and directories in the working directory
-`ls -a`  lists all contents of a directory, including hidden files and directories
-`ls -l`  lists all contents in long format
-`ls -lh`  print sizes in human readable format
-`ls -lah`  a combination of ls -lh and ls -a
-`ls -t`  order files and directories by the time they were last modified
-`ls -Glp`  a combination of ls -G (Displays the long format listing, but exclude the owner name), ls -l (Displays the long format listing.) and ls-p (Displays directories with /)
+- `ls`  lists all files and directories in the working directory
+- `ls -a`  lists all contents of a directory, including hidden files and directories
+- `ls -l`  lists all contents in long format
+- `ls -lh`  print sizes in human readable format
+- `ls -lah`  a combination of ls -lh and ls -a
+- `ls -t`  order files and directories by the time they were last modified
+- `ls -Glp`  a combination of ls -G (Displays the long format listing, but exclude the owner name), ls -l (Displays the long format listing.) and ls-p (Displays directories with /)
 
 
 ---
