@@ -69,7 +69,7 @@ hold information about the environment
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-- `ls`  lists all files and directories in the working directory
+> > - `ls`  lists all files and directories in the working directory
 - `ls -a`  lists all contents of a directory, including hidden files and directories
 - `ls -l`  lists all contents in long format
 - `ls -lh`  print sizes in human readable format
@@ -96,7 +96,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > In case you haven’t, xargs is a command used to execute commands based on arguments from standard input. It can be combined with with other commands. For example xargs can be used in combination with find in order to do something with the list of files returned by find. Recursively find all Python files and count the number of lines
+> > xargs is a command used to execute commands based on arguments from standard input. It can be combined with with other commands. For example xargs can be used in combination with find in order to do something with the list of files returned by find. Recursively find all Python files and count the number of lines
 'find . -name '*.py' | xargs wc -l'
 
  
