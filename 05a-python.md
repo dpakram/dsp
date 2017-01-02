@@ -71,11 +71,11 @@ filter(lessThanFour, items)
 ```
 >> dictionary comprehension
 
-format:
+>> format:
 ```python
 { key:value for item in list if conditional }
 ```
-example:
+>> example:
 ```python
 { d['id']:d for d in data }.values()
 ```
