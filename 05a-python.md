@@ -33,7 +33,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> Lambda is an anonymous or unbound function. It's a one statement function that returns something where the "return" is implied. You can use lambda with the sorted() function as the key object. For example, you can use it to sort through a list of "names":
 
-sorted(list, key=lambda i: i.names)
+>> sorted(list, key=lambda i: i.names)
 
 ---
 
