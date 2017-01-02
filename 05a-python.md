@@ -66,7 +66,8 @@ squared = list(map(lambda x: x**2, items))
 items = [1, 2, 3, 4, 5]
 def lessThanFour(element):
     return element < 4
-            
+```
+>> ```python
 filter(lessThanFour, items)
 ```
 >> dictionary comprehension
