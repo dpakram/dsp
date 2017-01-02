@@ -41,7 +41,12 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are a tool for transforming one list, or any iterable, into another. Below are examples of code that have the same result, written with a 'for loop', 'list comprehension', 'map' and 'filter'
+
+>> items = [1, 2, 3, 4, 5]
+squared = []
+for i in items:
+    squared.append(i**2)
 
 ---
 
