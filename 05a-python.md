@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists are lists of values, numbered starting at 0. You can remove, add and change values in lists. Tuples are like lists, but their values cannot be changed. You can use tuples as keys in dictionaries because they are immutable- unable to be changed. 
 
 ---
 
