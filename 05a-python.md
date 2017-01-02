@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> Sets cannot contains duplicates and they are unordered. Lists can have duplicates and are ordered starting at 0. To find an element in a set, you can use "contains". Indices cannot be used for sets because they are unordered. You can access an element in a list using its index. 
+>> Sets cannot contain duplicates and they are unordered. Lists can have duplicates and are ordered starting at 0. To find an element in a set, you can use "contains". Indices cannot be used for sets because they are unordered. You can access an element in a list using its index. 
 
 >> Example of set: Set(['John', 'Jane', 'Jack', 'Janice'])
 >> Example of list: ['John', 'John', "Jack', 'Janice']
@@ -41,7 +41,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> List comprehensions are a tool for transforming one list, or any iterable, into another. Below are examples of a `for loop`, `list comprehension`, `map` and `filter`.
+>> List comprehensions are a tool for transforming one list, or any iterable, into another. Below are examples of a `for loop`, `list comprehension`, `map`, `filter`, `dictionary comprehension` and `set comprehension`.
 
 >> for loop
 >> ```python
@@ -69,6 +69,21 @@ def lessThanFour(element):
             
 filter(lessThanFour, items)
 ```
+>> dictionary comprehension
+
+format:
+```python
+{ key:value for item in list if conditional }
+```
+example:
+```python
+{ d['id']:d for d in data }.values()
+```
+>> set comprehension
+```python
+nums = set(n**2 for n in range(10))
+```
+>> The syntax for set comprehensions is almost identical to that of list comprehensions, but it uses curly brackets instead of square brackets.
 
 
 ---
