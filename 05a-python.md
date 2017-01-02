@@ -43,12 +43,12 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehensions are a tool for transforming one list, or any iterable, into another. Below are examples of code that have the same result, written with a 'for loop', 'list comprehension', 'map' and 'filter'
 
->> ''' python
+>> ```python
     items = [1, 2, 3, 4, 5]
     squared = []
     for i in items:
         squared.append(i**2)
-'''
+```
 
 ---
 
