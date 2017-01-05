@@ -21,17 +21,29 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 >> Number of unique degrees = 12
 >> ['0' '1']
+
  ['B.S.Ed.' '1']
+ 
  ['JD' '1']
+ 
  ['M.S.' '1']
+ 
  ['MA' '1']
+ 
  ['MD' '1']
+ 
  ['MPH' '2']
+ 
  ['MS' '1']
+ 
  ['Ph.D' '5']
+ 
  ['Ph.D.' '17']
+ 
  ['PhD' '9']
+ 
  ['Sc.D.' '4']
+ 
  ['ScD' '2']
 
 
