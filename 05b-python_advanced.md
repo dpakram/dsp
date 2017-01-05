@@ -38,11 +38,15 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
 >> [['Assistant Professor is Biostatistics' '1']
+
 >> ['Assistant Professor of Biostatistics' '11']
+
 >> ['Associate Professor of Biostatistics' '12']
+
 >> ['Professor of Biostatistics' '13']]
+
 >> There are 4 unique titles
-Ana-Elisas-MBP:python anael
+
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
