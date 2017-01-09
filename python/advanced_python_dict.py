@@ -99,7 +99,7 @@ def sample(d, n):
 			sample_dict[name] = professor_dict[name]
 	return sample_dict
 
-print sample(professor_dict, 3)
+#print sample(professor_dict, 3)
 
 #--------------------------------------------------------
 
@@ -112,21 +112,6 @@ from collections import OrderedDict
 
 print OrderedDict(sorted(professor_dict.items(), key=lambda t: t[0][-1]))
 
-#print OrderedDict(sorted(professor_dict.items(), key=lambda t: t[0]))
-
-#for key in rofessor_dict:
-#	d = sorted(professor_dict.items())
-#	print key
-
-#for key in professor_dict:
-#	print key
-'''
-s = sorted(professor_dict.items(), key=itemgetter(1))
-
-
-for k, v in s:
-    print k, ':', v
-'''
 
 
 
