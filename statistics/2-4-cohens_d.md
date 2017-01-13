@@ -3,7 +3,8 @@
 >> Cohen's d= d = (x_1 − x_2) / s
 >> where x_1 and x_2 are the means of the groups and s is the “pooled standard deviation”. 
 >> In my code I used the thinkstats2 module to call the CohenEffectSize(group1, group2) function, which computes cohen's d. For a break down of the code that makes up this function go to 2.9 "Effect Size": http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24
->> The results returned show a value of -0.0886729270726 when comparing "first" babies to "other" babies. 
+
+>> The results returned show a value of -0.0886729270726 when comparing "first" babies to "other" babies. This means the differences in means of weights of first babies and other babies is about -0.089. This means that weight of other babies only increases by one standard deviation when compared to first babies. 
 
 >> ``` python
 >> from __future__ import print_function
