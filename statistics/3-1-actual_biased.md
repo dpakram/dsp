@@ -7,7 +7,7 @@
 >> import thinkplot
 ```
 >> call the data
-```
+```python
 >> data = ReadFemResp()
 >> data = data['numkdhh']
 
@@ -16,7 +16,7 @@
 ```
 >> Create distribution as observed by sample responses.
 >> The result is a new Pmf that represents the biased distribution
-```
+```python
 >> def BiasPmf(pmf, label):
 >> 	new_pmf = pmf.Copy(label=label)
 
@@ -32,7 +32,7 @@
 >> thinkplot.Show(xlabel= 'Kids per Household', ylabel= 'Probability')
 ```
 >> find the pmf and biased means
-```
+```python
 >> print 'Actual mean', pmf.Mean()
 >> print "Observed mean", biased_pmf.Mean()
 ```
