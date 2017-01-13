@@ -3,7 +3,8 @@
 >> ```Python
 >> Use the NSFG respondent variable NUMKDHH to construct the actual distribution 
 >> for the number of children under 18 in the household."""
-
+```
+```
 >> #from __future__ import print_function
 
 
