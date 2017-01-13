@@ -34,8 +34,7 @@
 >> thinkplot.Pmfs([pmf, biased_pmf])
 >> thinkplot.Show(xlabel= 'Kids per Household', ylabel= 'Probability')
 ```
->>> ![Graph](img/figure_1.png)
->> [[https://github.com/anaelisagentle/dsp/blob/master/img/figure_1.png]]
+>> ![Graph](https://github.com/anaelisagentle/dsp/blob/master/img/figure_1.png)
 
 >> Find the pmf and biased means
 ```python
