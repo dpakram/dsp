@@ -29,14 +29,18 @@ import numpy as np
 >> thinkplot.Pmfs([pmf])
 >> thinkplot.Show(xlabel='Number', ylabel='PDF')
 ```
+>> ![Graph](https://github.com/anaelisagentle/dsp/blob/master/img/chap04_pmf_graph.png)
 
 >> create cumulative distribution function (CDF) to map froma value to its percentile rank
 >> ```python
 >> cdf = thinkstats2.Cdf(r)
-
+```
+>> Graph the Cdf
+>> ```python
 >> thinkplot.PrePlot(1)
 >> thinkplot.Cdfs([cdf])
 >> thinkplot.Show(xlabel= 'Random Number', ylabel='CDF')
 ```
+>> ![Graph](https://github.com/anaelisagentle/dsp/blob/master/img/chap04_Cdf_graph.png)
 
 >> The CDF is approximately a straight line, which means that the distribution is uniform. What this figure shows is that 10% of the sample >> is below the 10th percentile, 20% is below the 20th percentile, and so on, exactly as we should expect.
