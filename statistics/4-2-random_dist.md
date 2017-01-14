@@ -12,10 +12,10 @@ import numpy as np
 >> import first
 >> import thinkstats2
 >> import thinkplot
-
 ```
+
 >> create a list of 1000 random numbers
-```python 
+>> ```python 
 >> r = np.random.random(1000)
 ```
 
