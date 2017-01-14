@@ -31,6 +31,8 @@ import numpy as np
 ```
 >> ![Graph](https://github.com/anaelisagentle/dsp/blob/master/img/chap04_pmf_graph.png)
 
+>> Although this graph looks like a giant blue block here, when you run the code in Python it shows a uniform distribution.
+
 >> create cumulative distribution function (CDF) to map froma value to its percentile rank
 >> ```python
 >> cdf = thinkstats2.Cdf(r)
