@@ -15,7 +15,7 @@ import numpy as np
 
 ```
 >> create a list of 1000 random numbers
->> ```python 
+```python 
 >> r = np.random.random(1000)
 ```
 
