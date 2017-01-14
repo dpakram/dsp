@@ -8,35 +8,35 @@ Is the distribution uniform?
 >> ```python
 import numpy as np
 
-import nsfg
-import first
-import thinkstats2
-import thinkplot
-#import random
+>> import nsfg
+>> import first
+>> import thinkstats2
+>> import thinkplot
+
 ```
 >> create a list of 1000 random numbers
 >> ```python 
-r = np.random.random(1000)
+>> r = np.random.random(1000)
 ```
 
 >> create Pmf of list of random numbers to show the probability of each number choosen
 >>```python
-pmf = thinkstats2.Pmf(r, 'Random Numbers')
+>> pmf = thinkstats2.Pmf(r, 'Random Numbers')
 ```
 >> plot the Pmf
 >>```python
-thinkplot.PrePlot(1)
-thinkplot.Pmfs([pmf])
-thinkplot.Show(xlabel='Number', ylabel='PDF')
+>> thinkplot.PrePlot(1)
+>> thinkplot.Pmfs([pmf])
+>> thinkplot.Show(xlabel='Number', ylabel='PDF')
 ```
 
 >> create cumulative distribution function (CDF) to map froma value to its percentile rank
-```python
-cdf = thinkstats2.Cdf(r)
+>> ```python
+>> cdf = thinkstats2.Cdf(r)
 
-thinkplot.PrePlot(1)
-thinkplot.Cdfs([cdf])
-thinkplot.Show(xlabel= 'Random Number', ylabel='CDF')
+>> thinkplot.PrePlot(1)
+>> thinkplot.Cdfs([cdf])
+>> thinkplot.Show(xlabel= 'Random Number', ylabel='CDF')
 ```
 
->>The CDF is approximately a straight line, which means that the distribution is uniform. What this figure shows is that 10% of the sample is below the 10th percentile, 20% is below the 20th percentile, and so on, exactly as we should expect.
+>> The CDF is approximately a straight line, which means that the distribution is uniform. What this figure shows is that 10% of the sample >> is below the 10th percentile, 20% is below the 20th percentile, and so on, exactly as we should expect.
