@@ -104,6 +104,8 @@ How do frequentist and Bayesian statistics compare?
 
 >> In the Bayesian approach probability is used to describe degrees of belief in parameter values. The probability is positive and adds up to one. A model is used to determine how likely the event is under all the possible true outcomes. In Bayesian statistics both a prior distribution created from what is already known about the parameter and the liklihood based on modeling assumptions are used. 
 
+>> Bayesian statistics using prior history where frequentist does not.
+
 ---
 
 ## <a name="section-d"></a>4.  Optional Exercises
