@@ -100,7 +100,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics tests where a hypothesis occurs or not. An experiment is repeated under the same conditions to determine the outcome. Frequentist statistics draws conclusions about the data from fixed parameters. In this approach a confidence interval is used to create a parameter of values that will include the true value, within a level of confidence. For example, given a 95% confidence interval, it can be assumed that 95 times out of 100 that parameters will contain the true value. 
+
+>> In the Bayesian approach probability is used to describe degrees of belief in parameter values. The probability is positive and adds up to one. A model is used to determine how likely the event is under all the possible true outcomes. In Bayesian statistics both a prior distribution created from what is already known about the parameter and the liklihood based on modeling assumptions are used. 
 
 ---
 
